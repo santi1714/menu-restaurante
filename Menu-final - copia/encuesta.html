@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta - Grupo Palominos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="cabecera-superior">
+    <h1 class="titulo">GRUPO PALOMINOS</h1>
+    <nav class="menu-principal">
+        <a href="index.html">← Volver al Menú</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Encuesta de Satisfacción</h2>
+    
+    <form id="form-encuesta" class="encuesta">
+        <label>1. ¿Cómo calificarías tu experiencia?</label><br>
+        <input type="radio" name="experiencia" value="excelente"> Excelente<br>
+        <input type="radio" name="experiencia" value="buena"> Buena<br>
+        <input type="radio" name="experiencia" value="regular"> Regular<br>
+        <input type="radio" name="experiencia" value="mala"> Mala<br>
+        <br>
+
+        <label>2. ¿Qué fue lo que más te gustó?</label><br>
+        <textarea rows="4" cols="50" placeholder="Escribe aquí..."></textarea><br>
+        <br>
+
+        <label>3. ¿Recomendarías nuestro restaurante?</label><br>
+        <input type="radio" name="recomendar" value="si"> Sí
+        <input type="radio" name="recomendar" value="no"> No<br>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
